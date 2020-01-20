@@ -169,7 +169,7 @@ main {
     border: #eece1a 3px solid; }
   .about-info .bio {
     grid-area: bio;
-    font-size: 1.5rem; }
+    font-size: 1.4rem; }
   .about-info .job-1 {
     grid-area: job1; }
   .about-info .job-2 {
@@ -180,6 +180,8 @@ main {
     background: #515151;
     padding: 0.5rem;
     border-bottom: #eece1a 5px solid; }
+    .about-info .job span {
+      font-family: Comic Sans MS, Comic Sans, cursive; }
 
 .projects {
   display: grid;

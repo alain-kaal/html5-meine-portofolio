@@ -91,7 +91,7 @@ main {
 
   .bio {
     grid-area: bio;
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .job-1 {
@@ -110,6 +110,10 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+
+    span {
+      font-family: Comic Sans MS, Comic Sans, cursive;
+    }
   }
 }
 
