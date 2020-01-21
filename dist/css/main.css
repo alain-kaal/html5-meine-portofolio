@@ -142,6 +142,7 @@ header {
 .text-secondary {
   color: #eece1a; }
 
+/* element appearing on a single page */
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px); }
@@ -157,10 +158,11 @@ main {
     main#home h1 {
       margin-top: 20vh; }
 
+/* About pages */
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -231,6 +233,7 @@ main {
   background: #c4c4c4;
   color: #333; }
 
+/* footer */
 #main-footer {
   text-align: center;
   padding: 1rem;
@@ -238,6 +241,7 @@ main {
   color: #fff;
   height: 60px; }
 
+/* Responsivness */
 @media screen and (min-width: 1171px) {
   .projects {
     grid-template-columns: repeat(4, 1fr); } }
