@@ -247,6 +247,11 @@ main {
     grid-template-columns: repeat(4, 1fr); } }
 
 @media screen and (min-width: 769px) and (max-width: 1170px) {
+  #contact .lg-heading,
+  #contact .sm-heading {
+    width: 80%;
+    margin: auto;
+    text-align: center; }
   .projects {
     grid-template-columns: repeat(3, 1fr); } }
 
@@ -277,7 +282,7 @@ main {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: 'bioimage' 'bio' 'job1' 'job2' 'job3';
+    grid-template-areas: "bioimage" "bio" "job1" "job2" "job3";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
