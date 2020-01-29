@@ -1,0 +1,20 @@
+@import "base/variables";
+@import "base/mixins";
+
+@import "components/menu";
+
+@import "base/reset";
+
+// Headings
+@import "layout/header";
+
+/* element appearing on a single page */
+@import "pages/blocks";
+
+@import "components/boutons";
+
+/* footer */
+@import "layout/footer";
+
+/* Responsivness */
+@import "mobile";
