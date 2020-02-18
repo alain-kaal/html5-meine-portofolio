@@ -94,4 +94,20 @@
   .projects {
     grid-template-columns: 1fr;
   }
+  .boxes {
+    div {
+      width: 90%;
+      height: 100px;
+      font-size: 15px;
+
+      margin: 0;
+      padding: 0;
+
+      p {
+        position: relative;
+        top: 15px;
+        left: 15px;
+      }
+    }
+  }
 }
